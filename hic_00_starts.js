@@ -52,20 +52,6 @@ bus.on('log', function (log_object, display,color ) {
         
     }
 
-
-
-
-
-
-    /*
-    var logdetail = f.lp(log_object);
-    if (f.ismatching(JSON.stringify(logdetail.logtrace),config.log_inclusion_lines) == true) {
-        console.log(f.text_color.FgGreen +  logdetail.logstr + f.text_color.Reset); 
-    }
-    else {
-        console.log(f.text_color.FgYellow +  logdetail.logstr + f.text_color.Reset); 
-    }
-    */
 });
 
 fs.watchFile('./hic_config.json', (curr, prev) => {
@@ -77,18 +63,3 @@ fs.watchFile('./hic_config.json', (curr, prev) => {
 
 
 
-
-
-
-/*
-var Cronconfig = require('cron').CronJob;
-var job = new CronJob(
-	'0/5 * * * * *',
-	function() {
-        //bus.emit('load_config');
-	},
-	null,
-	true,
-	'Europe/Paris'
-);
-*/
