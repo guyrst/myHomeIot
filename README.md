@@ -2,7 +2,7 @@
 My custum home automation system
 
 
-organize to work with mqtt, zigbee, mysql, nodejs for application layer. 
+organized to work with mqtt, zigbee2mqtt, mongoDb, nodejs 
 
 
 nodejs events.
